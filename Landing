@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>IDENTIFYING THE NOBODIES</title>
+    <style>
+      /* Ensuring full-page background and centering content */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-image: url("/Images/Landing\ image.png"); /* Ensure the image is available */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+      }
+
+      /* Styling the navigation bar */
+      nav {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+      }
+
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: grey;
+      }
+
+      /* Main title styling */
+      h1 {
+        font-size: 3.5em;
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      /* Subtitle styling */
+      p.subtitle {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 25px;
+      }
+
+      /* Adjusting spacing between elements */
+      .content {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation links -->
+    <nav>
+      <a href="Landing.html/about.html">ABOUT US</a>
+      <a href="map.html">MAP</a>
+      <a href="#">CONTACT US</a>
+    </nav>
+
+    <!-- Main content with title and subtitle -->
+    <div class="content">
+      <h1>IDENTIFYING THE NOBODIES</h1>
+      <p class="subtitle">
+        Restoring dignity to those we've lost by ensuring each life is honoured,
+        even in death
+      </p>
+    </div>
+  </body>
+</html>
